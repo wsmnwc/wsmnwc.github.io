@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>My New Hugo Site</title>
+        <link>https://wsmnwc.github.io/</link>
+        <description>Recent content on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 28 Dec 2021 19:11:38 +0900</lastBuildDate><atom:link href="https://wsmnwc.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2021年末碎碎念</title>
+        <link>https://wsmnwc.github.io/post/bolg/</link>
+        <pubDate>Tue, 28 Dec 2021 19:11:38 +0900</pubDate>
+        
+        <guid>https://wsmnwc.github.io/post/bolg/</guid>
+        <description>&lt;p&gt;入冬了
+忙了大半年，这两天闲下来，考前的很多规划，随着放假也突然没了兴致，希望能早点调整好心态&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
