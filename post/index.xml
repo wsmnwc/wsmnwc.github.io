@@ -2,18 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://wsmnwc.github.io/post/</link>
+    <link>https://wsmnwc/wsmnwc.github.io/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Dec 2021 19:11:38 +0900</lastBuildDate><atom:link href="https://wsmnwc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Dec 2021 19:11:38 +0900</lastBuildDate><atom:link href="https://wsmnwc/wsmnwc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年末碎碎念</title>
-      <link>https://wsmnwc.github.io/post/bolg/</link>
+      <link>https://wsmnwc/wsmnwc.github.io/post/bolg/</link>
       <pubDate>Tue, 28 Dec 2021 19:11:38 +0900</pubDate>
       
-      <guid>https://wsmnwc.github.io/post/bolg/</guid>
-      <description>入冬了 忙了大半年，这两天闲下来，考前的很多规划，随着放假也突然没了兴致，希望能早点调整好心态</description>
+      <guid>https://wsmnwc/wsmnwc.github.io/post/bolg/</guid>
+      <description>入冬了在家是真的好冷，暖气聊胜于无，穿两三层还是会手脚冰凉
+记录一下部署blog中遇到的一些问题
+建好仓库准备push的时候遇到[fatal: The current branch master has no upstream branch. To push the current branch and set the remote as upstream, use git push &amp;ndash;set-upstream origin master] 随后用 git push -u origin master给报了 fatal: unable to access &amp;lsquo;https://github.com/wsmnwc/wsmnwc.github.io.git/&#39;: gnutls_handshake() failed: The TLS connection was non-properly terminated. 看来是网络问题，于是配置代理 $ git config &amp;ndash;global https.https://github.com.proxy https://127.0.0.1:7890 $ git config &amp;ndash;global http.https://github.com.proxy http://127.0.0.1:7890
+之后又出现 [remote: Support for password authentication was removed on August 13, 2021.</description>
     </item>
     
   </channel>
